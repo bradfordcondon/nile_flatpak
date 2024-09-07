@@ -3,7 +3,6 @@ version: 0.20.34
 runtime: org.gnome.Platform
 runtime-version: "45"
 sdk: org.gnome.Sdk
-command: nile
 finish-args: # flatpak permissions
   - --device=all # needed for OpenGL, gamepads and serial/parallel
   - --share=ipc # needed for X11
@@ -22,4 +21,5 @@ modules:
   - "python3-pyjson5.json"
   - "python3-zstandard.json"
   - "python3-requests.json"
-  - "pyton3-charset-normalizer.json"
+  - "python3-charset-normalizer.json"
+  - "nile.json"

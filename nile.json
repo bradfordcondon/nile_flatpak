@@ -1,0 +1,17 @@
+{
+    "name": "nile",
+    "buildsystem": "simple",
+    "build-commands":[
+        "ls",
+        "mv bin/nile ${FLATPAK_DEST}/bin/nile",
+        "mv nile ${FLATPAK_DEST}/nile"
+
+    ],
+    "sources": [
+        {
+            "type": "git",
+            "url": "https://github.com/imLinguin/nile",
+            "commit": "9ce614f"
+        }
+    ]
+}
