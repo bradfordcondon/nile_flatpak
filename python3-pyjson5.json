@@ -1,0 +1,14 @@
+{
+    "name": "python3-pyjson5",
+    "buildsystem": "simple",
+    "build-commands": [
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pyjson5\" --no-build-isolation"
+    ],
+    "sources": [
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/70/6a/d65248c0b5ae9558bb45b5e23641f405faad052e39e5f62921b85f12b4a0/pyjson5-1.6.6.tar.gz",
+            "sha256": "20df8c5dbbe0d653f403da88b7520be44fc8d74697bbdd1ead688458b5691a02"
+        }
+    ]
+}

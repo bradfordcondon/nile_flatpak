@@ -1,0 +1,7 @@
+requests
+protobuf
+pycryptodome
+zstandard
+json5
+platformdirs
+charset-normalizer==2.1.1
