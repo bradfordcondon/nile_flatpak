@@ -18,8 +18,8 @@ finish-args: # flatpak permissions
   - --filesystem=xdg-documents
   - --filesystem=xdg-desktop
 modules:
-  - "charset-normalizer.json"
-  - "pycryptodome.json"
-  - "pyjson5.json"
-  - "pyrequests.json"
-  - "pyzstandard.json"
+  - "python3-pycryptodome.json"
+  - "python3-pyjson5.json"
+  - "python3-zstandard.json"
+  - "python3-requests.json"
+  - "pyton3-charset-normalizer.json"

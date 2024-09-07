@@ -2,8 +2,8 @@
 
 ~/work/flatpak-builder-tools/pip/flatpak-pip-generator --runtime='org.gnome.Sdk//45' pycryptodome
 ~/work/flatpak-builder-tools/pip/flatpak-pip-generator --runtime='org.gnome.Sdk//45' pyjson5
-~/work/flatpak-builder-tools/pip/flatpak-pip-generator --runtime='org.gnome.Sdk//45' pyzstandard
-~/work/flatpak-builder-tools/pip/flatpak-pip-generator --runtime='org.gnome.Sdk//45' pyrequests
+~/work/flatpak-builder-tools/pip/flatpak-pip-generator --runtime='org.gnome.Sdk//45' zstandard
+~/work/flatpak-builder-tools/pip/flatpak-pip-generator --runtime='org.gnome.Sdk//45' requests
 ~/work/flatpak-builder-tools/pip/flatpak-pip-generator --runtime='org.gnome.Sdk//45' charset-normalizer
 
 flatpak-builder nile  flatpak.yaml --force-clean  
